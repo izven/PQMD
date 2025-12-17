@@ -3,20 +3,62 @@ PODS:
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
   - SnapKit (5.7.1)
+  - SwifterSwift (8.0.0):
+    - SwifterSwift/AppKit (= 8.0.0)
+    - SwifterSwift/AppKitNoIBInspectable (= 8.0.0)
+    - SwifterSwift/CoreAnimation (= 8.0.0)
+    - SwifterSwift/CoreGraphics (= 8.0.0)
+    - SwifterSwift/CoreLocation (= 8.0.0)
+    - SwifterSwift/CryptoKit (= 8.0.0)
+    - SwifterSwift/Dispatch (= 8.0.0)
+    - SwifterSwift/Foundation (= 8.0.0)
+    - SwifterSwift/HealthKit (= 8.0.0)
+    - SwifterSwift/MapKit (= 8.0.0)
+    - SwifterSwift/NoIBInspectable (= 8.0.0)
+    - SwifterSwift/SceneKit (= 8.0.0)
+    - SwifterSwift/SpriteKit (= 8.0.0)
+    - SwifterSwift/StoreKit (= 8.0.0)
+    - SwifterSwift/SwiftStdlib (= 8.0.0)
+    - SwifterSwift/UIKit (= 8.0.0)
+    - SwifterSwift/UIKitNoIBInspectable (= 8.0.0)
+    - SwifterSwift/WebKit (= 8.0.0)
+  - SwifterSwift/AppKit (8.0.0)
+  - SwifterSwift/AppKitNoIBInspectable (8.0.0):
+    - SwifterSwift/AppKit
+  - SwifterSwift/CoreAnimation (8.0.0)
+  - SwifterSwift/CoreGraphics (8.0.0)
+  - SwifterSwift/CoreLocation (8.0.0)
+  - SwifterSwift/CryptoKit (8.0.0)
+  - SwifterSwift/Dispatch (8.0.0)
+  - SwifterSwift/Foundation (8.0.0)
+  - SwifterSwift/HealthKit (8.0.0)
+  - SwifterSwift/MapKit (8.0.0)
+  - SwifterSwift/NoIBInspectable (8.0.0)
+  - SwifterSwift/SceneKit (8.0.0)
+  - SwifterSwift/SpriteKit (8.0.0)
+  - SwifterSwift/StoreKit (8.0.0)
+  - SwifterSwift/SwiftStdlib (8.0.0)
+  - SwifterSwift/UIKit (8.0.0)
+  - SwifterSwift/UIKitNoIBInspectable (8.0.0):
+    - SwifterSwift/UIKit
+  - SwifterSwift/WebKit (8.0.0)
 
 DEPENDENCIES:
   - DGCharts
   - SnapKit (~> 5.7.0)
+  - SwifterSwift
 
 SPEC REPOS:
   trunk:
     - DGCharts
     - SnapKit
+    - SwifterSwift
 
 SPEC CHECKSUMS:
   DGCharts: 1c6daf585b6cfc78807af44ea690d357c410627f
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwifterSwift: 517fa61daf5b4c5e3ed13b9f35f4c26b310cfb97
 
-PODFILE CHECKSUM: f46af9ffda142e934e66a8543a947c87d3a983ba
+PODFILE CHECKSUM: 317dcff380d1eebd7fc0f40c218b662461779b91
 
 COCOAPODS: 1.16.2

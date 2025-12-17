@@ -8,6 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3008472C02C57972EF7B0E57 /* Pods_PQMDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7B0337481CF52A92AAFA27 /* Pods_PQMDTests.framework */; };
+		AD88C4442EF15B760082EA15 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C42E2EF15B760082EA15 /* BaseTabBarController.swift */; };
+		AD88C4452EF15B760082EA15 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C42F2EF15B760082EA15 /* BaseViewController.swift */; };
+		AD88C4462EF15B760082EA15 /* APPTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4372EF15B760082EA15 /* APPTheme.swift */; };
+		AD88C4472EF15B760082EA15 /* Demo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4392EF15B760082EA15 /* Demo1ViewController.swift */; };
+		AD88C4482EF15B760082EA15 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C43B2EF15B760082EA15 /* Demo2ViewController.swift */; };
+		AD88C4492EF15B760082EA15 /* Demo3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C43D2EF15B760082EA15 /* Demo3ViewController.swift */; };
+		AD88C44C2EF15B760082EA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4432EF15B760082EA15 /* ViewController.swift */; };
+		AD88C4582EF15F300082EA15 /* GlobalImports.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4572EF15F300082EA15 /* GlobalImports.swift */; };
+		AD88C45B2EF1776E0082EA15 /* GaugeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C45A2EF1776E0082EA15 /* GaugeChartView.swift */; };
+		AD88C4622EF188D50082EA15 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4612EF188D50082EA15 /* CardView.swift */; };
+		AD88C4692EF18DF70082EA15 /* CaloriesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4682EF18DF70082EA15 /* CaloriesCardView.swift */; };
+		AD88C46B2EF190830082EA15 /* GaugeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C46A2EF190830082EA15 /* GaugeIndicatorView.swift */; };
+		AD88C4712EF2401B0082EA15 /* GaugeLegendItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4702EF2401B0082EA15 /* GaugeLegendItemView.swift */; };
+		AD88C4732EF2471D0082EA15 /* MacrosBreakdownCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4722EF2471D0082EA15 /* MacrosBreakdownCardView.swift */; };
+		AD88C4752EF24A800082EA15 /* BreakdownItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4742EF24A800082EA15 /* BreakdownItemView.swift */; };
+		AD88C4782EF273500082EA15 /* RadialProgressChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C4772EF273500082EA15 /* RadialProgressChartView.swift */; };
+		AD88C47B2EF281240082EA15 /* SegmentedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C47A2EF281240082EA15 /* SegmentedProgressView.swift */; };
+		AD88C47D2EF2815A0082EA15 /* SegmentedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD88C47C2EF2815A0082EA15 /* SegmentedCardView.swift */; };
 		C215C05F8C53B83010266384 /* Pods_PQMD_PQMDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76B0AEE370541332883A48 /* Pods_PQMD_PQMDUITests.framework */; };
 		D27703A091B5AC44265A2F3C /* Pods_PQMD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DDB3EEA79F7B73B0AF800A /* Pods_PQMD.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +55,24 @@
 		AD88C3982EF14FA00082EA15 /* PQMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PQMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD88C3AE2EF14FA20082EA15 /* PQMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD88C3B82EF14FA20082EA15 /* PQMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD88C42E2EF15B760082EA15 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		AD88C42F2EF15B760082EA15 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AD88C4372EF15B760082EA15 /* APPTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPTheme.swift; sourceTree = "<group>"; };
+		AD88C4392EF15B760082EA15 /* Demo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1ViewController.swift; sourceTree = "<group>"; };
+		AD88C43B2EF15B760082EA15 /* Demo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
+		AD88C43D2EF15B760082EA15 /* Demo3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo3ViewController.swift; sourceTree = "<group>"; };
+		AD88C4432EF15B760082EA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD88C4572EF15F300082EA15 /* GlobalImports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImports.swift; sourceTree = "<group>"; };
+		AD88C45A2EF1776E0082EA15 /* GaugeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeChartView.swift; sourceTree = "<group>"; };
+		AD88C4612EF188D50082EA15 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AD88C4682EF18DF70082EA15 /* CaloriesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesCardView.swift; sourceTree = "<group>"; };
+		AD88C46A2EF190830082EA15 /* GaugeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeIndicatorView.swift; sourceTree = "<group>"; };
+		AD88C4702EF2401B0082EA15 /* GaugeLegendItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeLegendItemView.swift; sourceTree = "<group>"; };
+		AD88C4722EF2471D0082EA15 /* MacrosBreakdownCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosBreakdownCardView.swift; sourceTree = "<group>"; };
+		AD88C4742EF24A800082EA15 /* BreakdownItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownItemView.swift; sourceTree = "<group>"; };
+		AD88C4772EF273500082EA15 /* RadialProgressChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialProgressChartView.swift; sourceTree = "<group>"; };
+		AD88C47A2EF281240082EA15 /* SegmentedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedProgressView.swift; sourceTree = "<group>"; };
+		AD88C47C2EF2815A0082EA15 /* SegmentedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedCardView.swift; sourceTree = "<group>"; };
 		C6FF4ADB59A0FC7E6CF1D6BE /* Pods-PQMD-PQMDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMD-PQMDUITests.release.xcconfig"; path = "Target Support Files/Pods-PQMD-PQMDUITests/Pods-PQMD-PQMDUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB76B0AEE370541332883A48 /* Pods_PQMD_PQMDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQMD_PQMDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11D6373D0F56599951DCDEA /* Pods-PQMDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PQMDTests.debug.xcconfig"; path = "Target Support Files/Pods-PQMDTests/Pods-PQMDTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,15 +101,11 @@
 		};
 		AD88C3B12EF14FA20082EA15 /* PQMDTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = PQMDTests;
 			sourceTree = "<group>";
 		};
 		AD88C3BB2EF14FA20082EA15 /* PQMDUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = PQMDUITests;
 			sourceTree = "<group>";
 		};
@@ -127,13 +159,15 @@
 				D11D6373D0F56599951DCDEA /* Pods-PQMDTests.debug.xcconfig */,
 				EA26B8112C62C31DE93AF427 /* Pods-PQMDTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		AD88C38F2EF14FA00082EA15 = {
 			isa = PBXGroup;
 			children = (
+				AD88C4432EF15B760082EA15 /* ViewController.swift */,
+				AD88C4602EF188AE0082EA15 /* UI */,
+				AD88C45C2EF1882E0082EA15 /* Demo */,
 				AD88C39A2EF14FA00082EA15 /* PQMD */,
 				AD88C3B12EF14FA20082EA15 /* PQMDTests */,
 				AD88C3BB2EF14FA20082EA15 /* PQMDUITests */,
@@ -151,6 +185,101 @@
 				AD88C3B82EF14FA20082EA15 /* PQMDUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AD88C45C2EF1882E0082EA15 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C4672EF18DDE0082EA15 /* View */,
+				AD88C4392EF15B760082EA15 /* Demo1ViewController.swift */,
+				AD88C43B2EF15B760082EA15 /* Demo2ViewController.swift */,
+				AD88C43D2EF15B760082EA15 /* Demo3ViewController.swift */,
+				AD88C45F2EF1886E0082EA15 /* Base */,
+				AD88C45D2EF1884C0082EA15 /* Shared */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		AD88C45D2EF1884C0082EA15 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C46C2EF190A10082EA15 /* Extensions */,
+				AD88C4372EF15B760082EA15 /* APPTheme.swift */,
+				AD88C4572EF15F300082EA15 /* GlobalImports.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AD88C45E2EF1885F0082EA15 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C46F2EF23E280082EA15 /* GaugeChartView */,
+				AD88C4762EF273370082EA15 /* RadialProgressChartView */,
+				AD88C4792EF281020082EA15 /* SegmentedProgressView */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		AD88C45F2EF1886E0082EA15 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C42E2EF15B760082EA15 /* BaseTabBarController.swift */,
+				AD88C42F2EF15B760082EA15 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AD88C4602EF188AE0082EA15 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C45E2EF1885F0082EA15 /* Charts */,
+				AD88C4612EF188D50082EA15 /* CardView.swift */,
+				AD88C46A2EF190830082EA15 /* GaugeIndicatorView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD88C4672EF18DDE0082EA15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C4682EF18DF70082EA15 /* CaloriesCardView.swift */,
+				AD88C4722EF2471D0082EA15 /* MacrosBreakdownCardView.swift */,
+				AD88C47C2EF2815A0082EA15 /* SegmentedCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD88C46C2EF190A10082EA15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD88C46F2EF23E280082EA15 /* GaugeChartView */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C45A2EF1776E0082EA15 /* GaugeChartView.swift */,
+				AD88C4702EF2401B0082EA15 /* GaugeLegendItemView.swift */,
+				AD88C4742EF24A800082EA15 /* BreakdownItemView.swift */,
+			);
+			path = GaugeChartView;
+			sourceTree = "<group>";
+		};
+		AD88C4762EF273370082EA15 /* RadialProgressChartView */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C4772EF273500082EA15 /* RadialProgressChartView.swift */,
+			);
+			path = RadialProgressChartView;
+			sourceTree = "<group>";
+		};
+		AD88C4792EF281020082EA15 /* SegmentedProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AD88C47A2EF281240082EA15 /* SegmentedProgressView.swift */,
+			);
+			path = SegmentedProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,9 +429,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PQMD-PQMDUITests/Pods-PQMD-PQMDUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PQMD-PQMDUITests/Pods-PQMD-PQMDUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -361,9 +494,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PQMD/Pods-PQMD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-PQMD/Pods-PQMD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,6 +536,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD88C45B2EF1776E0082EA15 /* GaugeChartView.swift in Sources */,
+				AD88C4732EF2471D0082EA15 /* MacrosBreakdownCardView.swift in Sources */,
+				AD88C4442EF15B760082EA15 /* BaseTabBarController.swift in Sources */,
+				AD88C4452EF15B760082EA15 /* BaseViewController.swift in Sources */,
+				AD88C4462EF15B760082EA15 /* APPTheme.swift in Sources */,
+				AD88C4712EF2401B0082EA15 /* GaugeLegendItemView.swift in Sources */,
+				AD88C4582EF15F300082EA15 /* GlobalImports.swift in Sources */,
+				AD88C47D2EF2815A0082EA15 /* SegmentedCardView.swift in Sources */,
+				AD88C4472EF15B760082EA15 /* Demo1ViewController.swift in Sources */,
+				AD88C4482EF15B760082EA15 /* Demo2ViewController.swift in Sources */,
+				AD88C4492EF15B760082EA15 /* Demo3ViewController.swift in Sources */,
+				AD88C47B2EF281240082EA15 /* SegmentedProgressView.swift in Sources */,
+				AD88C46B2EF190830082EA15 /* GaugeIndicatorView.swift in Sources */,
+				AD88C4782EF273500082EA15 /* RadialProgressChartView.swift in Sources */,
+				AD88C4622EF188D50082EA15 /* CardView.swift in Sources */,
+				AD88C44C2EF15B760082EA15 /* ViewController.swift in Sources */,
+				AD88C4692EF18DF70082EA15 /* CaloriesCardView.swift in Sources */,
+				AD88C4752EF24A800082EA15 /* BreakdownItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,27 +595,33 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PQMD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortraitUpsideDown;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.pqmd.PQMD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.pqmd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,27 +633,33 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PQMD/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortraitUpsideDown;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.pqmd.PQMD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.md.pqmd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

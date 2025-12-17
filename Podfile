@@ -10,7 +10,8 @@ target 'PQMD' do
   pod 'SnapKit',    '~> 5.7.0'
 
   pod 'DGCharts'
-
+  pod 'SwifterSwift'
+  
   target 'PQMDTests' do
     inherit! :search_paths
     # Pods for testing
