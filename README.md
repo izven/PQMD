@@ -4,7 +4,7 @@ English / [简体中文](./README_CN.md)
 
 From @_heyrico Pure quality mobile design by Ace Studio
 
-![](design.png)
+<img src="design.png" alt="设计图" width="150" />
 
 ## Components
 

@@ -4,7 +4,7 @@
 
 @_heyrico 的 Pure quality mobile design by Ace Studio
 
-![](design.png)
+<img src="design.png" alt="设计图" width="150" />
 
 ## 组件
 
